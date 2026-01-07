@@ -1,0 +1,33 @@
+# ===== C / C++ build artifacts =====
+*.o
+*.out
+*.exe
+*.a
+*.so
+
+# ===== Build directories =====
+build/
+bin/
+
+# ===== Logs =====
+*.log
+
+# ===== Python cache =====
+__pycache__/
+*.pyc
+
+# ===== Virtual environments =====
+venv/
+.env
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Data (optional) =====
+# Ignore large/generated data files if reproducible
+data/
